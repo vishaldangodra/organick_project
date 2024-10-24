@@ -9,7 +9,7 @@ import Footer from '../../commen coponet/Footer_lastCom/footer';
 
 function Password() {
     return (
-        <><Header/>
+        <>
                 <section className='protect_sec_1'>
                     <div className='bkg_img'>
                         <h1 className='text-center color font_weigth protect'>Protected Page</h1>
@@ -37,7 +37,7 @@ function Password() {
 
                 <section className='section_10 container'>
                     <Subscribe />
-                    <Footer/>
+                   
                 </section>
            
         </>

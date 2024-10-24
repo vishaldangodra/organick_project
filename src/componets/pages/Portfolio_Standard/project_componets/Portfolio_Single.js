@@ -9,7 +9,7 @@ const Portfolio_Single = () => {
     const project = JSON.parse(localStorage.getItem("Project"));
     return (
         <>
-        <Header/>
+      
                 <section className='proj_p1_sec_1'>
                     <div className='p1_bg' style={{
                         backgroundImage: `url(${project.img || 'default-background.jpg'})`,
@@ -73,7 +73,7 @@ const Portfolio_Single = () => {
 
                 <section className='section_10 container'>
                     <Subscribe />
-                    <Footer/>
+                   
                 </section>
            
         </>

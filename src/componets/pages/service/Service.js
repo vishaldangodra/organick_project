@@ -17,7 +17,7 @@ const Service = () => {
 
     return (
         <>
-           <Header />
+         
                 <section className='service_sec_1'>
                     <div className='bg_img d-flex justify-content-center align-items-center'>
                         <h1 className='color font_weigth font_family_roboto text-center'>Our Service</h1>
@@ -93,7 +93,6 @@ const Service = () => {
                 </section>
                 <div className="container">
  
- <Footer/>
  </div>
         </>
     )

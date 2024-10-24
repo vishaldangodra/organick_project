@@ -8,7 +8,7 @@ const Licenses = () => {
 
     return (
         <>
-        <Header/>
+        
             <section className='Licenses_sec_1'>
                 <div className='Licenses_bg'>
                     <h1 className='color font_family_roboto font_weigth text-center heading'>Licenses</h1>
@@ -63,7 +63,7 @@ const Licenses = () => {
 
             <div className='container section_10'>
                 <Subscribe />
-                <Footer/>
+            
             </div>
         </>
     )

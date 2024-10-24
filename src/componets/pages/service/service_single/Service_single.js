@@ -8,7 +8,7 @@ import Subscribe from '../../../commen coponet/Subscribe/Subscribe';
 function Service_single() {
   return (
     <>
-      <Header />
+    
       <section className='service_single_1'>
         <div className='bgh_img d-flex justify-content-center align-items-center'>
           <h1 className='color font_weight font_family_roboto text-center'>Service-single</h1>
@@ -71,7 +71,7 @@ function Service_single() {
       </section>
       <div className='container'>
         <Subscribe />
-        <Footer/>
+       
       </div>
     </>
   );

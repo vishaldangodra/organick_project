@@ -69,7 +69,7 @@ const Team = () => {
 
     return (
         <>
-           <Header/>
+         
                 <section className='team_sec_1'>
                     <div className='team_bg'>
                         <div>
@@ -101,7 +101,7 @@ const Team = () => {
 
                 <section className='container section_10'>
                     <Subcribe />
-                    <Footer/>
+                   
                 </section>
             
         </>

@@ -25,7 +25,7 @@ function Card1({ Card2 }) {
       <div className="border"></div>
       <div className='d-flex justify-content-between'>
         <div className="gap-2 d-flex">
-          <strike>{Card2.price}</strike>
+          <strike>${Card2.price}</strike>
           <span className="price_tag color">{Card2.currentP}</span>
         </div>
         <div className="star">
