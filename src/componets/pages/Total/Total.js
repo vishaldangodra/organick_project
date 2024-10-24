@@ -6,7 +6,7 @@ import Arrow from "../../images/icons/Aerrow.png";
 const Total = () => {
   const [cartItems, setCartItems] = useState(() => {
 
-    return JSON.parse(localStorage.getItem("carditem")) || [];
+    return JSON.parse(localStorage.getItem("carditem")) || []   ;
   });
 
   useEffect(() => {
