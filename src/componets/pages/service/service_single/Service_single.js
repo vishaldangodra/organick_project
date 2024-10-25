@@ -1,9 +1,7 @@
 import React from 'react';
 import './Service_single.css'
-import Header from '../../../commen coponet/header/Header';
 import service_single_cardimg1  from "../../../images/Photo (8).jpg"
 import service_single_cardimg2  from "../../../images/Photo (9).jpg"
-import Footer from '../../../commen coponet/Footer_lastCom/footer';
 import Subscribe from '../../../commen coponet/Subscribe/Subscribe';
 function Service_single() {
   return (

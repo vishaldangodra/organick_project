@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from '../../commen coponet/header/Header'
 import Subscribe from '../../commen coponet/Subscribe/Subscribe'
-import Footer from '../../commen coponet/Footer_lastCom/footer'
 
 import { IoPerson } from "react-icons/io5";
 import './blog_single.css';

@@ -10,10 +10,8 @@ import Fruits from "../../images/Fruits.png";
 import icon_1 from "../../images/icons/Orange 1.png";
 import icon_2 from "../../images/icons/Orange 2.png";
 import Card1 from "../../commen coponet/card_product/Card1";
-
 import Slider1 from "../..//commen coponet/Slider/slider1";
 import Counter from "../../commen coponet/Counter raund/counter";
-
 import section_7img from "../../images/Netureimgsec_7.jpg";
 import section_8img1 from "../../images/sec_8img1.jpg";
 import section_8img2 from "../../images/sec_8_img2.jpg";

@@ -20,31 +20,34 @@ import Blog_single from "./componets/pages/blog-single/Blog_single";
 import Total from "./componets/pages/Total/Total";
 import Footer from "./componets/commen coponet/Footer_lastCom/footer";
 import Header from "./componets/commen coponet/header/Header";
+import CartContextValue from "./componets/context/CartContextValue";
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Header/>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/shop_singel" element={<Shop_singel />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/service_single" element={<Service_single />} />
-          <Route path="/team" element={<Team/>} />
-          <Route path="/blog_news" element={<Blog_news/>}/>
-          <Route path="/project" element={<Project/>}/>
-          <Route path="/portfolio_Single" element={<Portfolio_Single/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="*" element={<Error/>}/>
-          <Route path="/licenses" element={<Licenses/>}/>
-          <Route path="/changelog" element={<Changelog/>}/>
-          <Route path="/blog_single" element={<Blog_single/>}/>
-          <Route path="/Password" element={<Password/>}/>
-          <Route path="/Total" element={<Total/>}/> 
-        </Routes>
-        <Footer/>
+        <CartContextValue>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop_singel" element={<Shop_singel />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/service_single" element={<Service_single />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/blog_news" element={<Blog_news />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/portfolio_Single" element={<Portfolio_Single />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error />} />
+            <Route path="/licenses" element={<Licenses />} />
+            <Route path="/changelog" element={<Changelog />} />
+            <Route path="/blog_single" element={<Blog_single />} />
+            <Route path="/Password" element={<Password />} />
+            <Route path="/Total" element={<Total />} />
+          </Routes>
+          <Footer />
+        </CartContextValue>
       </BrowserRouter>
     </>
   );

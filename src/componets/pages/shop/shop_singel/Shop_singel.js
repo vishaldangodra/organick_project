@@ -59,7 +59,7 @@ const addcard=()=>{
                 <div className="d-flex gap-2 mb-4">
                   <strike>{data.price}</strike>
                   <span className="color font_family_roboto font_weigth">
-                    {data.currentP}
+                    ${data.currentP}
                   </span>
                 </div>
                 <p className="dummy_text">

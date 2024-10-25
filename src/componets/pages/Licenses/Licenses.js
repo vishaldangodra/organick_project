@@ -1,8 +1,6 @@
 import React from 'react';
 import './Licenses.css';
 import Subscribe from '../../commen coponet/Subscribe/Subscribe';
-import Header from '../../commen coponet/header/Header';
-import Footer from '../../commen coponet/Footer_lastCom/footer';
 
 const Licenses = () => {
 

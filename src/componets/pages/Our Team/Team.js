@@ -11,8 +11,6 @@ import expert5 from '../../images/Teamcardimg_5.jpg';
 import expert6 from '../../images/Teamcardimg_6.jpg';
 import ExportCard from '../about/about_compo/ExportCard';
 import Subcribe from "../../commen coponet/Subscribe/Subscribe";
-import Header from '../../commen coponet/header/Header';
-import Footer from '../../commen coponet/Footer_lastCom/footer';
 
 const Team = () => {
 

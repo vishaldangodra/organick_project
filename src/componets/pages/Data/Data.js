@@ -31,7 +31,7 @@ export const card2  = [
       Cardimg: cardimg_1,
       title: "Fresh Banana Fruites",
       price: "20$",
-      currentP: 13.00,
+      currentP: 14.00,
       Rating: img2,
      
     },
@@ -40,7 +40,7 @@ export const card2  = [
       Cardimg: cardimg_2,
       title: "White Nuts",
       price: "20$",
-      currentP: 13.00,
+      currentP: 15.00,
       Rating: img2,
      
     },
@@ -49,7 +49,7 @@ export const card2  = [
       Cardimg: cardimg_5,
       title: "Vegan Red Tomato",
       price: "20$",
-      currentP: 13.00,
+      currentP: 17.00,
       Rating: img2,
      
     },
@@ -58,7 +58,7 @@ export const card2  = [
       Cardimg: cardimg_6,
       title: "Mung Bean",
       price: "20$",
-      currentP:13.00,
+      currentP:11.00,
       Rating: img2,
     
     },
@@ -67,7 +67,7 @@ export const card2  = [
       Cardimg: cardimg_7,
       title: "Brown Hazelnut",
       price: "20$",
-      currentP:13.00,
+      currentP:12.00,
       Rating: img2,
      
     },
@@ -76,7 +76,7 @@ export const card2  = [
       Cardimg: cardimg_8,
       title: "Eggs",
       price: "20$",
-      currentP: 13.00,
+      currentP: 17.00,
       Rating: img2,
       
     },
@@ -85,7 +85,7 @@ export const card2  = [
       Cardimg: cardimg_9,
       title: "Zelco Suji Elaichi Rusk",
       price: "20$",
-      currentP: 13.00,
+      currentP: 15.00,
       Rating: img2,
   
     },
@@ -94,7 +94,7 @@ export const card2  = [
       Cardimg: cardimg_3,
       title: "Mung Bean",
       price: "20$",
-      currentP:13.00,
+      currentP:11.00,
       Rating: img2,
     },
     {
@@ -102,7 +102,7 @@ export const card2  = [
       Cardimg: cardimg_4,
       title: "White Hazelnut",
       price: "20$",
-      currentP: 13.00,
+      currentP: 16.00,
       Rating: img2,
   
     },
@@ -111,7 +111,7 @@ export const card2  = [
       Cardimg: cardimg_10,
       title: "Fresh Corn",
       price: "20$",
-      currentP: 13.00,
+      currentP: 14.00,
       Rating: img2,
     
     },
@@ -142,7 +142,7 @@ export const card2  = [
         Cardimg: card2img3,
         title: "Brown Hazelnut",
         price: "20$",
-        currentP: 13.00,
+        currentP: 16.00,
         Rating: img2,
       },
       {
@@ -150,7 +150,7 @@ export const card2  = [
         Cardimg: card2img2,
         title: "Onion",
         price: "20$",
-        currentP:13.00,
+        currentP:15.00,
         Rating: img2,
       },
       {
@@ -158,7 +158,7 @@ export const card2  = [
         Cardimg: card2img1,
         title: "Cabbage",
         price: "20$",
-        currentP: 13.00,
+        currentP: 17.00,
         Rating: img2,
       },
 

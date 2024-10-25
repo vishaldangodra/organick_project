@@ -8,8 +8,6 @@ import img4 from "../../images/project_4.png";
 import img5 from "../../images/project_5.png";
 import img6 from "../../images/project_6.png";
 import Subscribe from '../../commen coponet/Subscribe/Subscribe'
-import Header from '../../commen coponet/header/Header';
-import Footer from '../../commen coponet/Footer_lastCom/footer';
 
 
 const Project = () => {

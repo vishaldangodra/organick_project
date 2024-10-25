@@ -1,8 +1,6 @@
 import React from 'react';
 import './error.css';
 import err from '../../../componets/images/404.png';
-import Header from '../../commen coponet/header/Header';
-import Footer from '../../commen coponet/Footer_lastCom/footer';
 const Error = () => {
     return (
         <>

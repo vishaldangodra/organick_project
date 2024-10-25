@@ -9,9 +9,7 @@ import twitter from "../../images/icons/Twiter.png";
 import print from '../../images/icons/P.png';
 import Button from '../../commen coponet/botton/botton';
 import Subscribe from '../../commen coponet/Subscribe/Subscribe'
-import Header from '../../commen coponet/header/Header';
 import locationIcon from '../../images/icons/location.png';
-import Footer from '../../commen coponet/Footer_lastCom/footer'
 const Contact = () => {
     return (
         <>

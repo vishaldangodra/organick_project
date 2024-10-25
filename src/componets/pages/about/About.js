@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import Header from "../../commen coponet/header/Header";
 import Sec_2_1 from "../../images/Image (1).png";
 import Tactor from "../../images/icons/Tractor.png";
 import Factory from "../../images/icons/Chemical Plant.png";
@@ -25,7 +24,6 @@ import Nuts from "../../images/Photo (5).jpg"
 import Vegetable from "../../images/Photo (6).jpg"
 import Fruits from "../../images/Photo (7).jpg"
 import Subscribe from "../../commen coponet/Subscribe/Subscribe"
-import Footer from "../../commen coponet/Footer_lastCom/footer"
 const About = () => {
   const Card3 = [
     {

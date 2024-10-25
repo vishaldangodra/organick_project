@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../pages/service/Service.css';
-import Header from '../../commen coponet/header/Header';
 import img1 from "../../images/service_img1.png";
 import icon1 from '../../images/icons/service_icon1.svg';
 import icon2 from '../../images/icons/service_icon2.svg';
@@ -10,7 +9,6 @@ import icon5 from '../../images/icons/service_icon5.svg';
 import icon6 from '../../images/icons/service_icon5.png';
 import Button from '../../commen coponet/botton/botton';
 import Arrow from '../../images/icons/Aerrow.png'
-import Footer from '../../commen coponet/Footer_lastCom/footer';
 
 
 const Service = () => {
