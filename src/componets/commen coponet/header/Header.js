@@ -80,6 +80,9 @@ function Header() {
     );
     setFilteredData(filtered);
   };
+//   const handleDropdownToggle = (index) => {
+//     setActiveDropdown(activeDropdown === index ? null : index);
+//   };
 
   return (
     <header>
@@ -179,7 +182,7 @@ function Header() {
                         src={Card2.Cardimg}
                         alt={Card2.title}
                       />
-                    </div>
+                     </div>
                     <p className="color font_family_roboto card_title mb-2">
                       {Card2.title}
                     </p>

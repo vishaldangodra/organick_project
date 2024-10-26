@@ -26,8 +26,8 @@
 .container .icon2,
 .container .cart_icon {
     background-color: #7EB693; 
-    height: 42px;
-    width: 42px;
+    height: 39px;
+    width: 39px;
     display: flex;
     border-radius: 50%;
     justify-content: center;
@@ -47,7 +47,7 @@
 .container .cart_icon {
     background-color: #274C5B;
     position: absolute;
-    right: 60%; /* Adjust for better alignment */
+    right: 62%; /* Adjust for better alignment */
 }
 
 .container .cart_main {
