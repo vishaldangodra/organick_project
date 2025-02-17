@@ -46,6 +46,7 @@ function App() {
             <Route path="/Password" element={<Password />} />
             <Route path="/Total" element={<Total />} />
           </Routes>
+          
           <Footer />
         </CartContextValue>
       </BrowserRouter>
