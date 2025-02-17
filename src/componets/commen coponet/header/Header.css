@@ -14,20 +14,21 @@
 }
 
 .container .search {
-    border: none;
+    border: 1px solid #ccc;
     background-color: #FAFAFA;
     border-radius: 36px;
     height: 45px;
-    width: 100%; /* Full width on smaller screens */
-    max-width: 300px; /* Limit max width */
-    padding-left: 47px;
+    width: 100%;
+    max-width: 280px;
+    padding-left: 40px;
+    transition: 0.3s ease-in-out;
 }
 
 .container .icon2,
 .container .cart_icon {
     background-color: #7EB693; 
-    height: 39px;
-    width: 39px;
+    height: 42px;
+    width: 42px;
     display: flex;
     border-radius: 50%;
     justify-content: center;
@@ -40,7 +41,7 @@
 .container .icon2 {
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 59%;
     transform: translateY(-50%);
 }
 
@@ -52,13 +53,14 @@
 
 .container .cart_main {
     width: 160px;
-    height: 42px;
+    height: 45px;
     border: 1px solid #777777;
     border-radius: 36px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     position: relative;
+    padding: 10px;
 }
 
 .container .cart_main:hover {
@@ -73,7 +75,7 @@
 .container .cart_text {
     color: #274C5B;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 15px;
    
 }
 
@@ -123,14 +125,14 @@
 }
 
 .submenu {
-    display: none; 
+    display: none; /* Hidden by default */
     position: absolute;
-    top: 100%; 
+    top: 100%; /* Position submenu below the parent item */
    
-    background-color: #fff; 
+    background-color: #fff; /* Background color for the submenu */
     padding: 10px 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
-    z-index: 1000; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Drop shadow for submenu */
+    z-index: 1000; /* Ensure submenu appears above other content */
   }
   
   /* Each submenu item */
